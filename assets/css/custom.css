@@ -1,0 +1,165 @@
+* {
+    font-family: 'Product Sans';
+}
+p {
+    color: #656363;
+}
+.menu-btn {
+    z-index: 100;
+    border: none !important;
+}
+
+.menu-btn span:first-child {
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+
+.menu-btn span:last-child {
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+.toggle-nav-btn span:last-child {
+    background: white;
+    transform: rotate(-45deg);
+    margin-bottom: 0;
+    position: relative;
+    top: -2px;
+}
+.sm-nav {
+    transition: opacity .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #EB4E42;
+}
+.toggle-spinners {
+    background-color: #EB4E42;
+}
+.close-hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFF;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.toggle-nav-btn {
+    border: solid white;
+}
+
+.toggle-nav-btn span:first-child {
+    background: white;
+    transform: rotate(45deg);
+    margin-bottom: 0;
+    position: relative;
+    top: 2px;
+}
+
+.highlight {
+    color: #EB4E42;
+}
+
+.highlight:hover {
+    color: #8A3210;
+}
+
+.highlight-btn {
+    background-color: #EB4E42;
+}
+
+.highlight-btn:hover {
+    box-shadow: 20px 64px 54px rgba(0, 0, 0, 0.05), 0px 14px 14px rgba(0, 0, 0, 0.05);
+}
+
+.awesome {
+    color: #2E2E2E;
+}
+
+.meetups:hover::after {
+    opacity: 1;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    bottom: 0;
+}
+
+.meetups::after {
+    content: '';
+    position: absolute;
+    bottom: -180px;
+    right: 30px;
+    width: 240px;
+    height: 170px;
+    background: rgba(241, 129, 121, 0.06);
+    opacity: 0;
+}
+
+.codelabs:hover::after {
+    opacity: 1;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    bottom: 0;
+}
+
+.codelabs::after {
+    content: '';
+    position: absolute;
+    bottom: -180px;
+    right: 30px;
+    width: 240px;
+    height: 170px;
+    background: rgba(54, 116, 214, 0.06);
+    opacity: 0;
+}
+
+.campus-events:hover::after {
+    opacity: 1;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    bottom: 0;
+}
+
+.campus-events::after {
+    content: '';
+    position: absolute;
+    bottom: -180px;
+    right: 30px;
+    width: 240px;
+    height: 170px;
+    background: rgba(87, 187, 139, 0.06);
+    opacity: 0;
+}
+
+.viewing-parties:hover::after {
+    opacity: 1;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    bottom: 0;
+}
+
+.viewing-parties::after {
+    content: '';
+    position: absolute;
+    bottom: -180px;
+    right: 30px;
+    width: 240px;
+    height: 170px;
+    background: rgba(251, 188, 4, 0.06);
+    opacity: 0;
+}
+
+.angular:hover {
+    box-shadow: 20px 64px 54px rgba(0, 0, 0, 0.05), 0px 14px 14px rgba(0, 0, 0, 0.05);
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.firebase:hover {
+    box-shadow: 20px 64px 54px rgba(0, 0, 0, 0.05), 0px 14px 14px rgba(0, 0, 0, 0.05);
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.android:hover {
+    box-shadow: 20px 64px 54px rgba(0, 0, 0, 0.05), 0px 14px 14px rgba(0, 0, 0, 0.05);
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.google-cloud:hover {
+    box-shadow: 20px 64px 54px rgba(0, 0, 0, 0.05), 0px 14px 14px rgba(0, 0, 0, 0.05);
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.kotlin:hover {
+    box-shadow: 20px 64px 54px rgba(0, 0, 0, 0.05), 0px 14px 14px rgba(0, 0, 0, 0.05);
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.google-maps:hover {
+    box-shadow: 20px 64px 54px rgba(0, 0, 0, 0.05), 0px 14px 14px rgba(0, 0, 0, 0.05);
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
