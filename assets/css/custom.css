@@ -77,12 +77,11 @@
         line-height: 36px;
         color: #656363;
     }
+    .cancel {
+        overflow: visible !important;
+    }
 }
 
 .card {
     background-color: #fff;
-}
-
-.cancel {
-    overflow: visible !important;
 }
